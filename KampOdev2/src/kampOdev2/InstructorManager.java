@@ -6,6 +6,6 @@ public class InstructorManager extends UserManager{
 		
 	}
 	public void addCourse(Instructor instructor) {
-		System.out.println(instructor.getFirstName() + " " + instructor.getLastName() + " adli kullanici " + instructor.getGivenLecture() + " dersini verdi.");
+		System.out.println(instructor.getFirstName() + " " + instructor.getLastName() + " adlı kullanıcı " + instructor.getGivenLecture() + " dersini verdi.");
 	}
 }
